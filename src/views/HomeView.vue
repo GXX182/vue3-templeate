@@ -1,9 +1,8 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <el-button>home</el-button>
+    <router-link :to="{ name: 'about' }">about</router-link>
   </main>
 </template>
+
+<script setup></script>
